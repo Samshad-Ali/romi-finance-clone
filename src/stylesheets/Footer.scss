@@ -1,0 +1,23 @@
+.footer{
+    border-top: 1px solid #454545;
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    >img{
+        width: 120px;
+    }
+    >ul{
+        gap: 1rem;
+        img{
+            cursor: pointer;
+        }
+    }
+    >div{
+        gap: 1rem;
+        color:var(--whtClr);
+        >li{
+            cursor: pointer;
+        }
+    }
+}
